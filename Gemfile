@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
+
+
+
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
@@ -18,6 +21,9 @@ gem 'webpacker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+
+  gem 'letter_opener'
+
 end
 
 group :development, :test do
@@ -27,4 +33,7 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+
+
+
 end
