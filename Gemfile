@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-
-
+gem 'postmark-rails'
+gem 'gibbon'
 
 gem 'bootsnap', require: false
 gem 'devise'
